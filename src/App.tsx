@@ -49,7 +49,7 @@ function App() {
     <body>
       <div className="bg-[url('/assets/bg-stars.svg')] h-[78vh] desktop:h-[83vh] bg-fit">
         {/* <h1 className="font-['Red Hat Text'] font-bold text-white text-[8xl] md:text-lg desktop:text-[22px] w-[327px] desktop:w-[431px] tracking-[6.14px] text-center mx-auto mt-[142px] mb-[54px] desktop:mt-[132px] desktop:mb-[104px]"> */}
-        <h1 className="font-['Red Hat Text'] font-bold text-white text-5xl tracking-[6.14px] text-center mx-auto mt-[142px] mb-[54px] ">
+        <h1 className="font-['Red Hat Text'] font-bold text-white text-8xl tracking-[6.14px] text-center mx-auto mt-[142px] mb-[54px] ">
           软 考 倒 计 时
         </h1>
         <Counter
