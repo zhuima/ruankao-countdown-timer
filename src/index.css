@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    background: linear-gradient(#1D1E28 0%, #261C2D 97%, #261A2D 100%);
+    z-index: -20;
+}
