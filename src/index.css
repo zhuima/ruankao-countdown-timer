@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-    background: linear-gradient(#1D1E28 0%, #261C2D 97%, #261A2D 100%);
-    z-index: -20;
+html {
+  background: linear-gradient(#1d1e28 0%, #261c2d 97%, #261a2d 100%);
+  z-index: -20;
+}
+
+button {
+  padding: 5px;
 }

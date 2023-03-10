@@ -1,6 +1,8 @@
 import { Counter } from "./components/Counter";
 import { Footer } from "./components/Footer";
 import { useEffect, useState } from "react";
+import { Navbar } from "./components/Narbars";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   const [days, setDays] = useState<number>(0);
@@ -47,6 +49,7 @@ function App() {
   }, []);
   return (
     <body>
+      <Navbar />
       <div className="bg-[url('/assets/bg-stars.svg')] h-[78vh] desktop:h-[83vh] bg-fit">
         {/* <h1 className="font-['Red Hat Text'] font-bold text-white text-[8xl] md:text-lg desktop:text-[22px] w-[327px] desktop:w-[431px] tracking-[6.14px] text-center mx-auto mt-[142px] mb-[54px] desktop:mt-[132px] desktop:mb-[104px]"> */}
         <h1 className="font-['Red Hat Text'] font-bold text-white text-4xl  md:text-6xl xl:text-8xl tracking-[6.14px] text-center mx-auto mt-[142px] mb-[54px] ">
@@ -59,7 +62,8 @@ function App() {
           seconds={seconds}
         />
         <div className="absolute bottom-0 h-[194px] w-full bg-[center_right_-11rem] desktop:bg-cover desktop:bg-center bg-no-repeat bg-[url('/assets/pattern-hills.svg')]"></div>
-        {/* <Footer /> */}
+        <Footer />
+        <ScrollToTop smooth />;
       </div>
     </body>
   );
