@@ -11,7 +11,7 @@ interface courseProps {
 const Details = ({ cid, img, title, time, progress }: courseProps) => {
   return (
     <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-      <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+      <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg transform transition duration-500  hover:scale-110">
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
           <img className="w-full" src={img} alt="Mountain" />
           <div className="px-6 py-4">
