@@ -15,8 +15,8 @@ const CoursePage = () => {
               <h2 className="text-4xl font-semibold">
                 系统规划与管理师培训课程表
               </h2>
-              <p className="text-lg leading-relaxed m-4 text-gray-400 text-white">
-                课程为考前冲刺班，由马老师亲自授课
+              <p className="text-lg leading-relaxed m-4 text-gray-200 text-white">
+                课程为考前冲刺班，由马老师讲授, 如要报名请在B站私信马老师
               </p>
               <button className="bg-orange-400 py-3 px-8 mt-4 mr-4 rounded text-sm font-semibold hover:bg-opacity-75">
                 课程时长: 30小时(20课时)

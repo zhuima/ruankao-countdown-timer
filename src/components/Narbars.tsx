@@ -5,14 +5,18 @@ export const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-indigo-500 mb-3">
+      <nav className="relative flex flex-wrap items-center justify-between px-2 bg-indigo-500 mb-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto  lg:static lg:block lg:justify-start">
-            <Link
-              to={`/`}
-              className="text-xl  font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
-            >
-              软考备战资料库
+            <Link to={`/`}>
+              <h1 className="side-animated-heading">
+                <span className="text-white">软考系规</span>
+                <div className="nav-side-message-box">
+                  <div className="side-box-animated-word1">资料库</div>
+                  <div className="side-box-animated-word2">加油站</div>
+                  <div className="side-box-animated-word3">学习方法</div>
+                </div>
+              </h1>
             </Link>
             <button
               className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -36,7 +40,7 @@ export const Navbar = () => {
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                 >
                   <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i>
-                  <span className="ml-2">课程计划</span>
+                  <span className="ml-4">课程计划</span>
                 </Link>
               </li>
               <li className="nav-item">
