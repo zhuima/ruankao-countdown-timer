@@ -4,7 +4,7 @@
     "title": "论文",
     "time": "2023/3/17",
     "progress": 0,
-    "img": "../../public/assets/1.png"
+    "img": "/assets/1.png"
   },
 
   {
@@ -12,7 +12,7 @@
     "title": "规划设计",
     "time": "2023/3/20",
     "progress": 1,
-    "img": "../../public/assets/2.png"
+    "img": "/assets/2.png"
   },
 
   {
@@ -20,125 +20,125 @@
     "title": "规划设计",
     "time": "2023/3/24",
     "progress": 1,
-    "img": "../../public/assets/2.png"
+    "img": "/assets/2.png"
   },
   {
     "cid": 4,
     "title": "部署实施",
     "time": "2023/3/27",
     "progress": 1,
-    "img": "../../public/assets/3.png"
+    "img": "/assets/3.png"
   },
   {
     "cid": 5,
     "title": "部署实施",
     "time": "2023/3/31",
     "progress": 1,
-    "img": "../../public/assets/3.png"
+    "img": "/assets/3.png"
   },
   {
     "cid": 6,
     "title": "运营管理",
     "time": "2023/4/3",
     "progress": 2,
-    "img": "../../public/assets/4.png"
+    "img": "/assets/4.png"
   },
   {
     "cid": 7,
     "title": "运营管理",
     "time": "2023/4/7",
     "progress": 2,
-    "img": "../../public/assets/4.png"
+    "img": "/assets/4.png"
   },
   {
     "cid": 8,
     "title": "持续改进",
     "time": "2023/4/10",
     "progress": 2,
-    "img": "../../public/assets/5.png"
+    "img": "/assets/5.png"
   },
   {
     "cid": 9,
     "title": "持续改进",
     "time": "2023/4/14",
     "progress": 2,
-    "img": "../../public/assets/5.png"
+    "img": "/assets/5.png"
   },
   {
     "cid": 10,
     "title": "随堂考试",
     "time": "2023/4/17",
     "progress": 2,
-    "img": "../../public/assets/6.png"
+    "img": "/assets/6.png"
   },
   {
     "cid": 11,
     "title": "论文",
     "time": "2023/4/21",
     "progress": 3,
-    "img": "../../public/assets/1.png"
+    "img": "/assets/1.png"
   },
   {
     "cid": 12,
     "title": "监督管理",
     "time": "2023/4/24",
     "progress": 3,
-    "img": "../../public/assets/9.png"
+    "img": "/assets/9.png"
   },
   {
     "cid": 13,
     "title": "监督管理",
     "time": "2023/4/28",
     "progress": 3,
-    "img": "../../public/assets/9.png"
+    "img": "/assets/9.png"
   },
   {
     "cid": 14,
     "title": "服务营销",
     "time": "2023/5/5",
     "progress": 3,
-    "img": "../../public/assets/7.png"
+    "img": "/assets/7.png"
   },
   {
     "cid": 15,
     "title": "法律法规",
     "time": "2023/5/8",
     "progress": 3,
-    "img": "../../public/assets/11.png"
+    "img": "/assets/11.png"
   },
   {
     "cid": 16,
     "title": "信息技术基础知识",
     "time": "2023/5/12",
     "progress": 4,
-    "img": "../../public/assets/8.png"
+    "img": "/assets/8.png"
   },
   {
     "cid": 17,
     "title": "随堂考试",
     "time": "2023/5/15",
     "progress": 4,
-    "img": "../../public/assets/6.png"
+    "img": "/assets/6.png"
   },
   {
     "cid": 18,
     "title": "真题",
     "time": "2023/5/19",
     "progress": 4,
-    "img": "../../public/assets/10.png"
+    "img": "/assets/10.png"
   },
   {
     "cid": 19,
     "title": "真题",
     "time": "2023/5/22",
     "progress": 4,
-    "img": "../../public/assets/10.png"
+    "img": "/assets/10.png"
   },
   {
     "cid": 20,
     "title": "真题",
     "time": "2023/5/26",
     "progress": 4,
-    "img": "../../public/assets/10.png"
+    "img": "/assets/10.png"
   }
 ]
