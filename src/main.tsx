@@ -6,6 +6,7 @@ import ErrorPage from "./error-page";
 import App from "./App";
 import CoursePage from "./CoursePage";
 import Document from "./Document";
+import Books from "./Books";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -22,6 +23,11 @@ const router = createBrowserRouter([
   {
     path: "/document",
     element: <Document />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/books",
+    element: <Books />,
     errorElement: <ErrorPage />,
   },
 ]);

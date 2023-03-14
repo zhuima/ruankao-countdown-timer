@@ -62,6 +62,15 @@ export const Navbar = () => {
                   <span className="ml-2">学习指北</span>
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                  to={`/books`}
+                >
+                  <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>
+                  <span className="ml-2">教材参考</span>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
