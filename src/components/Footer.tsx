@@ -11,7 +11,9 @@ export const Footer = () => {
     >
       <div>
         Copy Right &copy; 2023 by{" "}
-        <a href="https://rct-mage.vercel.app/">马老师讲系规</a>
+        <a href="https://www.bilibili.com/video/BV1Ce411N7pV/">
+          马英老师讲系规
+        </a>
       </div>
     </footer>
   );
