@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { XMarkIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
 const StickyBanner = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -56,12 +57,13 @@ const StickyBanner = () => {
               </svg>
               马英老师讲系规即将在3月17日晚正式开班.
             </p>
-            <a
-              href="#"
+
+            <Link
               className="flex-none rounded-full bg-gray-900 py-1 px-3.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
+              to={`https://www.bilibili.com/video/BV1Ce411N7pV/`}
             >
-              立即报名 <span aria-hidden="true">&rarr;</span>
-            </a>
+              立即报名(站内私信) <span aria-hidden="true">&rarr;</span>
+            </Link>
           </div>
           <div className="flex flex-1 justify-end">
             <button
