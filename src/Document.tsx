@@ -1,8 +1,12 @@
 import React from "react";
 import { Navbar } from "./components/Narbars";
+import StickyBanner from "./components/StickyBanner";
+
 function Document() {
   return (
     <>
+      <StickyBanner />
+
       <Navbar />
       <div className="container mx-auto">
         <div role="article" className="py-12 md:px-8">

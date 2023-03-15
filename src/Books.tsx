@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar } from "./components/Narbars";
+import StickyBanner from "./components/StickyBanner";
 import book1 from "/assets/book1.png";
 import book2 from "/assets/book2.png";
 import book3 from "/assets/book3.png";
@@ -8,6 +9,7 @@ import ScrollToTop from "react-scroll-to-top";
 const Books = () => {
   return (
     <>
+      <StickyBanner />
       <Navbar />
 
       <div className="text-gray-900 pt-12 pr-0 pb-14 pl-0 text-white">

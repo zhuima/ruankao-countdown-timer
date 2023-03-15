@@ -1,12 +1,16 @@
 import React from "react";
 import Details from "./components/Details";
 import { Navbar } from "./components/Narbars";
+import StickyBanner from "./components/StickyBanner";
+
 import data from "./data/data.json";
 import ScrollToTop from "react-scroll-to-top";
 
 const CoursePage = () => {
   return (
     <>
+      <StickyBanner />
+
       <Navbar />
       <section className="pt-20 pb-48 text-white">
         <div className="container mx-auto px-4">
