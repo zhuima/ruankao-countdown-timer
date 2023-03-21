@@ -3,7 +3,7 @@
     "cid": 1,
     "title": "论文",
     "time": "2023/3/17",
-    "progress": 0,
+    "progress": 4,
     "img": "/assets/1.png"
   },
 
@@ -11,7 +11,7 @@
     "cid": 2,
     "title": "规划设计",
     "time": "2023/3/20",
-    "progress": 1,
+    "progress": 4,
     "img": "/assets/2.png"
   },
 
