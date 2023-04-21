@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import VerificationCode from "./AuthService";
 
 import ErrorPage from "./error-page";
 import App from "./App";
@@ -22,12 +23,20 @@ const router = createBrowserRouter([
   },
   {
     path: "/document",
-    element: <Document />,
+    element: (
+      <VerificationCode image="https://imgs.wiki/imgs/2023/04/19/ebbaf13d67457f93.jpg">
+        <Document />
+      </VerificationCode>
+    ),
     errorElement: <ErrorPage />,
   },
   {
     path: "/books",
-    element: <Books />,
+    element: (
+      <VerificationCode image="https://imgs.wiki/imgs/2023/04/19/ebbaf13d67457f93.jpg">
+        <Books />
+      </VerificationCode>
+    ),
     errorElement: <ErrorPage />,
   },
 ]);
