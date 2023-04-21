@@ -10,10 +10,10 @@ export default function VerificationCode(props: any) {
     setInputValue(e.target.value);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
     // 此处应从后台获取验证码并验证
-    const correctCode = "123456"; // 假设正确的验证码为123456
+    const correctCode = "xg45"; // 假设正确的验证码为123456
     if (inputValue === correctCode) {
       setShowContent(true);
     } else {
