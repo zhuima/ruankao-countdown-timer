@@ -14,7 +14,7 @@ export default function VerificationCode(props: any) {
   const handleSubmit = (e: any) => {
     e.preventDefault();
     // 此处应从后台获取验证码并验证
-    const correctCode = "xg45"; // 假设正确的验证码为123456
+    const correctCode = "xigui45"; // 假设正确的验证码为123456
     if (inputValue === correctCode) {
       setShowContent(true);
     } else {

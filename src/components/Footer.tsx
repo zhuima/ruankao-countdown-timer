@@ -11,9 +11,7 @@ export const Footer = () => {
     >
       <div>
         Copy Right &copy; 2023 by{" "}
-        <a href="https://www.bilibili.com/video/BV1Ce411N7pV/">
-          马英老师讲系规
-        </a>
+        <a href="https://www.bilibili.com/video/BV1Ce411N7pV/">系规通关宝典</a>
       </div>
     </footer>
   );
