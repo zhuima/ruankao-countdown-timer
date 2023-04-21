@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import VerificationCode from "./AuthService";
+import wechat from "/assets/wechat.jpeg";
 
 import ErrorPage from "./error-page";
 import App from "./App";
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
   {
     path: "/document",
     element: (
-      <VerificationCode image="https://imgs.wiki/imgs/2023/04/19/ebbaf13d67457f93.jpg">
+      <VerificationCode image={wechat}>
         <Document />
       </VerificationCode>
     ),
@@ -33,7 +34,7 @@ const router = createBrowserRouter([
   {
     path: "/books",
     element: (
-      <VerificationCode image="https://imgs.wiki/imgs/2023/04/19/ebbaf13d67457f93.jpg">
+      <VerificationCode image={wechat}>
         <Books />
       </VerificationCode>
     ),
