@@ -4,6 +4,7 @@ import StickyBanner from "./components/StickyBanner";
 import book1 from "/assets/book1.png";
 import book2 from "/assets/book2.png";
 import book3 from "/assets/book3.png";
+import xigui from "/assets/xigui.jpg";
 import ScrollToTop from "react-scroll-to-top";
 
 const Books = () => {
@@ -134,7 +135,7 @@ const Books = () => {
             </div>
             <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
               <img
-                src={book3}
+                src={xigui}
                 className="object-cover w-full mb-2 overflow-hidden rounded-lg shadow-sm max-h-156 btn-"
               />
               <p
@@ -144,20 +145,23 @@ const Books = () => {
                 三方教材
               </p>
               <a className="text-lg font-bold sm:text-xl md:text-2xl">
-                系统规划与管理师重点资料总结
+                系统规划与管理师特训
               </a>
               <p className="text-sm text-black text-gray-500">
-                全程思维导图指引重点难点、关键信息标记必背属性,
+                <p>特点1：视频讲解，扫码播放 </p>
+                <p>特点2：紧扣考试大纲， 全面揭示命题特点</p>
+                <p>特色3：考点浓缩重点突出</p>
+                <p>特点4：速记法则辅助记忆</p>
               </p>
               <div className="pt-2 pr-0 pb-0 pl-0">
                 <a className="inline text-xs font-medium mt-0 mr-1 mb-0 ml-0 underline">
-                  阿诺
+                  中国水利水电出版社
                 </a>
                 <p className="inline text-xs font-medium mt-0 mr-1 mb-0 ml-1">
-                  · 2019 ·
+                  · 2023 ·
                 </p>
                 <p className="inline text-xs font-medium text-gray-300 mt-0 mr-1 mb-0 ml-1">
-                  xxxxxxx
+                  9787522614557
                 </p>
               </div>
             </div>
