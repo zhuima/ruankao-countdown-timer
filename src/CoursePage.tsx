@@ -29,7 +29,7 @@ const CoursePage = () => {
                 培训方式: 腾讯会议直播
               </button>
               <button className="bg-orange-400 py-3 px-8 mt-4 mr-4 rounded text-sm font-semibold hover:bg-opacity-75">
-                每次直播时长: 20:00 ~ 21:00
+                每次直播时长: 20:00 ~ 21:30
               </button>
             </div>
           </div>
