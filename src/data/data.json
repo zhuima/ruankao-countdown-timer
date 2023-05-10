@@ -103,42 +103,42 @@
     "cid": 15,
     "title": "法律法规",
     "time": "2023/5/8",
-    "progress": 3,
+    "progress": 4,
     "img": "/assets/11.png"
   },
   {
     "cid": 16,
     "title": "信息技术基础知识",
     "time": "2023/5/12",
-    "progress": 4,
+    "progress": 3,
     "img": "/assets/8.png"
   },
   {
     "cid": 17,
     "title": "随堂考试",
     "time": "2023/5/15",
-    "progress": 4,
+    "progress": 3,
     "img": "/assets/6.png"
   },
   {
     "cid": 18,
     "title": "真题",
     "time": "2023/5/19",
-    "progress": 4,
+    "progress": 3,
     "img": "/assets/10.png"
   },
   {
     "cid": 19,
     "title": "真题",
     "time": "2023/5/22",
-    "progress": 4,
+    "progress": 3,
     "img": "/assets/10.png"
   },
   {
     "cid": 20,
     "title": "真题",
     "time": "2023/5/26",
-    "progress": 4,
+    "progress": 3,
     "img": "/assets/10.png"
   }
 ]
