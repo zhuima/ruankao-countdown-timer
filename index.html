@@ -3,8 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-    <meta name="viewport"
-      content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
   <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
   <title>系规通关宝典</title>
   <meta name="description"
@@ -26,6 +25,12 @@
 <body>
   <div id="root"></div>
   <script type="module" src="./src/main.tsx"></script>
+  <!-- Include quicklink from dist -->
+  <script src="dist/quicklink.umd.js"></script>
+  <!-- Initialize (you can do this whenever you want) -->
+  <script>
+    quicklink.listen();
+  </script>
 </body>
 
 </html>
