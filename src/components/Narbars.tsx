@@ -17,7 +17,7 @@ export const Navbar = () => {
         >
           <img src={logo} alt="LOGO" className="block w-10 object-cover" />
           <h2 className="font-['Red Hat Text'] font-bold text-center text-lg">
-            系规通关宝典
+            软考通关宝典
           </h2>
         </a>
         <ul

@@ -31,7 +31,7 @@ export const Footer = () => {
         <div className="font-['Red Hat Text'] font-semi-bold text-[#8385A9] ">
           Copy Right &copy; 2023 by{" "}
           <a href="https://www.bilibili.com/video/BV1Ce411N7pV/">
-            系规通关宝典
+            软考通关宝典
           </a>
         </div>
         <div
